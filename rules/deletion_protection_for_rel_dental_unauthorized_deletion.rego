@@ -4,13 +4,13 @@ __rego__metadoc__ := {
 	"custom": {
 		"controls": {
 			"RelationalDB": [
-				"RelationalDB_I"
+				"RelationalDB_H"
 			]
 		},
 		"severity": "Medium"
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "I",
+	"id": "H",
 	"title": "Deletion protection not be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
 }
 
