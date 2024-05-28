@@ -11,7 +11,7 @@ __rego__metadoc__ := {
 	},
 	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
 	"id": "H",
-	"title": "Deletion protection not be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
+	"title": "Deletion protection to be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
 }
 
 # Please write your OPA rule here

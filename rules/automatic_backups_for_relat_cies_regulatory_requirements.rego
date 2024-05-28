@@ -24,4 +24,3 @@ default allow = false
 allow {
   input.backup_retention_period > 0
 }
-

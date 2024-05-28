@@ -1,4 +1,4 @@
-package rules.relational_database_instanc_s_jpmc_encryption_algorithms
+package rules.relational_database_instanc_sation_encryption_algorithms
 
 __rego__metadoc__ := {
 	"custom": {
@@ -15,13 +15,12 @@ __rego__metadoc__ := {
 }
 
 # Please write your OPA rule here
-
 input_type = "tf"
 
 resource_type = "aws_db_instance"
 
 default allow = false
-
 allow {
   input.storage_encrypted == true
 }
+
