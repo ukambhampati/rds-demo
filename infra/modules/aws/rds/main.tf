@@ -23,6 +23,34 @@ resource "random_password" "password_postgres" {
   special = false
 }
 
+resource "aws_iam_user" "rds_user" {
+  name = "rds-user"
+}
+
+resource "aws_iam_user_policy" "rds_user_policy" {
+  name   = "rds-user-policy"
+  user   = aws_iam_user.rds_user.name
+  policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Action   = "rds:*"
+        Effect   = "Allow"
+        Resource = "*"
+      }
+    ]
+  })
+}
+
+resource "aws_iam_access_key" "rds_user_key" {
+  user = aws_iam_user.rds_user.name
+
+  # Forces new resource on each apply
+  lifecycle {
+    create_before_destroy = true
+  }
+}
+
 resource "aws_db_instance" "db" {
   identifier              = "${local.extract_resource_name}-db"
   instance_class          = "db.t3.micro"

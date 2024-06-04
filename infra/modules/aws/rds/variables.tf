@@ -37,3 +37,9 @@ variable "db-sg-id" {
   description = "The ID of the DocumentDB cluster"
   type        = string
 }
+
+variable "region" {
+  description = "The AWS region"
+  type        = string
+  default     = "us-west-2"
+}
