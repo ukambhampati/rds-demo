@@ -11,7 +11,7 @@ __rego__metadoc__ := {
 	},
 	"description": "AWS_DB.pdf - Version: 1.0.0",
 	"id": "7e0925f0-531d-44f2-a66b-cecaffba81aef",
-	"title": "Ensure Access Keys are Regularly Rotated (Manual)",
+	"title": "Ensure IAM Roles and Policies are Created (Manual)",
 }
 
 # Please write your OPA rule here
