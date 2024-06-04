@@ -17,10 +17,10 @@ __rego__metadoc__ := {
 # Please write your OPA rule here
 input_type = "tf"
 
-resource_type = "aws_iam_access_key"
+resource_type = "aws_db_instance"
 
 default allow = false
 
 allow {
-  input.create_before_destroy = false
+  input.iam_user_policy = true
 }
