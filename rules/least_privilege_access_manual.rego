@@ -1,15 +1,15 @@
-package rules.ensure_privilage_access
+package rules.least_privilege_access_manual
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWS_DB.pdf": [
-				"AWS_DB.pdf_07dbe18b-0a9e-487e-bc85-c4e0a4274564"
+			"ce8277f7-7905-4904-a44b-ee8137b9f79c": [
+				"ce8277f7-7905-4904-a44b-ee8137b9f79c_07dbe18b-0a9e-487e-bc85-c4e0a4274564"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "AWS_DB.pdf - Version: 1.0.0",
+	"description": "Document: AWS_DB.pdf - Version: 1.0.0",
 	"id": "07dbe18b-0a9e-487e-bc85-c4e0a4274564",
 	"title": "Ensure Least Privilege Access (Manual)",
 }
@@ -23,3 +23,4 @@ default allow = false
 allow {
     input.publicly_accessible == false
 }
+

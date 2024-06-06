@@ -1,16 +1,16 @@
-package rules.ensure_data_in_transit_encrypted
+package rules.data_transit_is_manual
 
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"AWS_DB.pdf": [
-				"AWS_DB.pdf_93ae87fb-1680-4704-a474-d7f15ad1c57b"
+			"ce8277f7-7905-4904-a44b-ee8137b9f79c": [
+				"ce8277f7-7905-4904-a44b-ee8137b9f79c_fc126221-303c-4afb-ab8e-039f0019efb7"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "AWS_DB.pdf - Version: 1.0.0",
-	"id": "93ae87fb-1680-4704-a474-d7f15ad1c57b",
+	"description": "Document: AWS_DB.pdf - Version: 1.0.0",
+	"id": "fc126221-303c-4afb-ab8e-039f0019efb7",
 	"title": "Ensure Data in Transit is Encrypted (Manual)",
 }
 
@@ -23,3 +23,4 @@ default allow = false
 allow {
     input.skip_final_snapshot == false
 }
+
