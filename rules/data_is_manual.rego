@@ -18,7 +18,6 @@ __rego__metadoc__ := {
 input_type = "tf"
 
 resource_type = "aws_db_instance"
-
 default allow = false
 allow {
     input.skip_final_snapshot == false
