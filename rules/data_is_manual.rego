@@ -3,14 +3,14 @@ package rules.data_is_manual
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"ce8277f7-7905-4904-a44b-ee8137b9f79c": [
-				"ce8277f7-7905-4904-a44b-ee8137b9f79c_93ae87fb-1680-4704-a474-d7f15ad1c57b"
+			"f765a597-f375-4d34-b4ed-09dc535cd1a1": [
+				"f765a597-f375-4d34-b4ed-09dc535cd1a1_fab8cbb5-cbd5-401b-9e3b-c9d57f82958f"
 			]
 		},
 		"severity": "Medium"
 	},
-	"description": "Document: AWS_DB.pdf - Version: 1.0.0",
-	"id": "93ae87fb-1680-4704-a474-d7f15ad1c57b",
+	"description": "Document: aws rds 1594 - Version: 1.0.0",
+	"id": "fab8cbb5-cbd5-401b-9e3b-c9d57f82958f",
 	"title": "Ensure Data at Rest is Encrypted (Manual)",
 }
 
@@ -18,6 +18,7 @@ __rego__metadoc__ := {
 input_type = "tf"
 
 resource_type = "aws_db_instance"
+
 default allow = false
 allow {
     input.skip_final_snapshot == false
