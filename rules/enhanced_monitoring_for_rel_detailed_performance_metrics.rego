@@ -3,8 +3,8 @@ package rules.enhanced_monitoring_for_rel_detailed_performance_metrics
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_G"
+			"RelationalDB": [
+				"RelationalDB_G"
 			]
 		},
 		"severity": "Medium"

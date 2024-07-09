@@ -3,8 +3,8 @@ package rules.relational_database_instanc_sation_encryption_algorithms
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_A"
+			"RelationalDB": [
+				"RelationalDB_A"
 			]
 		},
 		"severity": "Medium"

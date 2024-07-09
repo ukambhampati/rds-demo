@@ -3,8 +3,8 @@ package rules.relational_database_instanc_k_access_control_lists_nacls
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_C"
+			"RelationalDB": [
+				"RelationalDB_C"
 			]
 		},
 		"severity": "Medium"

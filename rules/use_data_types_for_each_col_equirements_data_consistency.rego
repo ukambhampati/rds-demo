@@ -3,8 +3,8 @@ package rules.use_data_types_for_each_col_equirements_data_consistency
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_J"
+			"RelationalDB": [
+				"RelationalDB_J"
 			]
 		},
 		"severity": "Medium"

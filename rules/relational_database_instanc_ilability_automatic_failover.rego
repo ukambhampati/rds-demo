@@ -3,8 +3,8 @@ package rules.relational_database_instanc_ilability_automatic_failover
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_E"
+			"RelationalDB": [
+				"RelationalDB_E"
 			]
 		},
 		"severity": "Medium"

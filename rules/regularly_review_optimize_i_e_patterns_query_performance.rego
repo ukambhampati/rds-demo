@@ -3,8 +3,8 @@ package rules.regularly_review_optimize_i_e_patterns_query_performance
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_I"
+			"RelationalDB": [
+				"RelationalDB_I"
 			]
 		},
 		"severity": "Medium"

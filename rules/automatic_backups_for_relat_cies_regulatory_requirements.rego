@@ -3,8 +3,8 @@ package rules.automatic_backups_for_relat_cies_regulatory_requirements
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_F"
+			"RelationalDB": [
+				"RelationalDB_F"
 			]
 		},
 		"severity": "Medium"

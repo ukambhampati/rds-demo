@@ -3,8 +3,8 @@ package rules.relational_database_snapshots_backups_rest
 __rego__metadoc__ := {
 	"custom": {
 		"controls": {
-			"RelationalDB2": [
-				"RelationalDB2_B"
+			"RelationalDB": [
+				"RelationalDB_B"
 			]
 		},
 		"severity": "Medium"
