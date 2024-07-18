@@ -1,18 +1,19 @@
 package rules.deletion_protection_for_rel_dental_unauthorized_deletion
 
-__rego__metadoc__ := {
-	"custom": {
-		"controls": {
-			"RelationalDB": [
-				"RelationalDB_H"
-			]
+
+	__rego__metadoc__ := {
+		"custom": {
+			"controls": {
+				"RelationalDB": [
+					"RelationalDB_H"
+				]
+			},
+			"severity": "Medium"
 		},
-		"severity": "Medium"
-	},
-	"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
-	"id": "H",
-	"title": "Deletion protection to be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
-}
+		"description": "Document: Technology Engineering - Relational database - Best Practice - Version: 1.0",
+		"id": "H",
+		"title": "Deletion protection to be enabled for Relational database instances and clusters to prevent accidental or unauthorized deletion.",
+	}
 
 # Please write your OPA rule here
 input_type = "tf"

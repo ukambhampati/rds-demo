@@ -47,6 +47,9 @@ resource "aws_db_instance" "db" {
   skip_final_snapshot = var.environment == "prod" || var.environment == "production" ? false : true
   iam_user_policy = true
   access_keys_rotated = true
+  inventory_registered = true
+  network_auth = true
+  software_approved = true
 
   tags = merge(
     {
